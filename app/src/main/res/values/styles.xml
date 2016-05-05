@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--这是文字的样式表-->
+    <style name="tel_show_text">
+        <item name="android:background">#FF009ACD</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/tel_title</item>
+        <item name="android:textSize">@dimen/tel_show_text_size</item>
+    </style>
+    
+    
+    <style name="action_bar_icon">
+        <item name="android:contentDescription">123</item>
+        <item name="android:layout_width">@dimen/actionbar_icon_width</item>
+        <item name="android:layout_height">@dimen/actionbar_icon_height</item>
+        <item name="android:background">@drawable/item_home_entry</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>

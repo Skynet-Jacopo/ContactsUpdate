@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--这里对 ListView里的Item进行自定义效果 如果state_pressed 属性设置为true 则会显示自己传入的drawable文件的样式-->
+    <item android:drawable="@drawable/home_entry_item_pressed" android:state_pressed="true"/>
+    <!--这里是默认样式 即没有点击的效果-->
+    <item android:drawable="@drawable/home_entry_item_normal"/>
+</selector>
